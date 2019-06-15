@@ -1,0 +1,269 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title_ %}
+	{% if category %} 
+		{{category.name}}
+	{% else %}
+		Products	
+	{% endif %}
+{% endblock title_ %}
+{% block content %}
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="{%static 'css/linearicons.css'%}">
+			<link rel="stylesheet" href="{%static 'css/font-awesome.min.css'%}">
+			<link rel="stylesheet" href="{%static 'css/bootstrap.css'%}">
+			<link rel="stylesheet" href="{%static 'css/magnific-popup.css'%}">
+			<link rel="stylesheet" href="{%static 'css/jquery-ui.css'%}">
+			<link rel="stylesheet" href="{%static 'css/nice-select.css'%}">
+             <link rel="stylesheet" href="{%static 'css/hover.css'%}">
+			<link rel="stylesheet" href="{%static 'css/animate.min.css'%}">
+			<link rel="stylesheet" href="{%static 'css/owl.carousel.css'%}">
+			<link rel="stylesheet" href="{%static 'css/main.css'%}">
+            <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+<section class='menu-filter-data pt-90 pb-90'>
+      <div class="container">
+            <div class="row">
+                <div class="raow">
+            <h1 class="mb-10">Order food online
+				</h1>
+		  <h4>Endless selection of cuisines and restaurants</h4>
+                </div>
+          <div class="container">
+                <form role="form" >
+                    <div class="form-group" style='margin-top:100px;'>
+                        <input type="text" class="form-control" id="search" placeholder="Search In Menu"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search In Menu'">
+                        <button  type="submit" id='prevent' disabled> <i class="fa fa-search"></i></button>
+                      </div>
+                </form>
+             </div>
+            <div id="myBtnContainer" >
+            <ul class="" id='menu-list'>
+              <li class="list-category active" onclick="filterSelection('all-restaurants')">All Restaurants</li>
+              <li class="list-category" onclick="filterSelection('McDonald')">McDonald's</li>
+              <li class="list-category " onclick="filterSelection('Toom-Basel')"> Toom and Basel</li>
+              <li class="list-category "  onclick="filterSelection('Rosto')"  >Rosto</li>
+            </ul>
+            </div>
+
+                <div class="col-lg-4">
+              <div class="filterDiv all-restaurants">
+							<div class="single-cat-widget" >
+								  <a onclick="filterSelection('Rosto')" >
+								<div class="content relative">
+									<div class="overlay overlay-bg"></div>
+								      <div class="thumb">
+								  		 <img class="content-image img-fluid d-block mx-auto" src="{%static 'img/Partner/Rosto.jpg'%}" alt="">
+								  	  </div>
+								      <div class="content-details">
+								        <h4 class="content-title mx-auto text-uppercase">Rosto</h4>
+								        <span></span>
+								        <p>Enjoy your social life together</p>
+								      </div>
+								    </a>
+								</div>
+							</div>
+						</div>
+                </div>
+                <div class="col-lg-4">
+              <div class="filterDiv all-restaurants">
+							<div class="single-cat-widget">
+								 <a onclick="filterSelection('McDonald')" >
+								<div class="content relative">
+									<div class="overlay overlay-bg"></div>
+								      <div class="thumb">
+								  		 <img class="content-image img-fluid d-block mx-auto" src="{%static 'img/Partner/MdDonald.jpg'%}" alt="">
+								  	  </div>
+								      <div class="content-details">
+								        <h4 class="content-title mx-auto text-uppercase">McDonald's</h4>
+								        <span></span>
+								        <p>Enjoy your social life together</p>
+								      </div>
+								    </a>
+								</div>
+							</div>
+						</div>
+                </div>
+                <div class="col-lg-4">
+									<div class="filterDiv all-restaurants">
+							<div class="single-cat-widget">
+								 <a onclick="filterSelection('Toom-Basel')">
+								<div class="content relative">
+									<div class="overlay overlay-bg"></div>
+								    <a onclick="filterSelection('Toom-Basel')">
+								      <div class="thumb">
+								  		 <img class="content-image img-fluid d-block mx-auto" src="{%static 'img/Partner/Tom%20and%20Basal.jpg'%}" alt="">
+								  	  </div>
+								      <div class="content-details">
+								        <h4 class="content-title mx-auto text-uppercase">Tom and Basel</h4>
+								        <span></span>
+								        <p>Enjoy your social life together</p>
+								      </div>
+								    </a>
+								</div>
+							</div>
+						</div>
+                </div>
+                <div class="row" style='width: 100%;'>
+              <div class="filterDiv McDonald" >
+              	<div id="sidebar">
+
+		<ul>
+			<h2>categories</h2>
+				<li
+					{% if not category %}
+						class = "selected"
+					{% endif %}
+				>
+					<a  class='cataloge' href="{% url 'shop:product_list' %} ">All</a>
+				</li>
+		{% for cat in categories %}
+
+				<li
+					{% if category.slug == cat.slug %}
+						class = "selected"
+					{% endif %}
+				>
+					<a   class='cataloge'  href="{{cat.get_absolute_url}}">{{cat.name}}</a>
+				</li>
+
+		{% endfor %}
+			</ul>
+	</div>
+
+	<div id="main">
+		<h1>
+			{% if category %}
+				{{category.name}}
+			{% else %}
+				Products
+			{% endif %}
+		</h1>
+		{% for prod in products %}
+				<div class="thumb"  >
+						<div class="items">
+			<a href="{{prod.get_absolute_url}}">
+				<img src="
+					{% if prod.Image %}
+						{{prod.Image.url}}
+					{% else %}
+						{% static 'img/default.png' %}
+					{% endif %}"
+				width=250px>
+			</a>
+					</div>
+					<a href="blog-single.html"><h4 style="margin-left:180px">{{prod.name}}</h4></a>
+					<p style="margin-left:180px">
+						inappropriate behavior ipsum dolor sit amet, consectetur.
+					</p>
+
+						<center><p><br>Price : ${{prod.price}}</p></center>
+						<center><p class="center"><a   type="button" class="btn btn-info" style="padding: 9px;width: 124px;"href="{{prod.get_absolute_url}}">Order</a></center>
+
+					</div>
+						<div class="meta-bottom d-flex justify-content-between">
+						<p><span class="lnr lnr-heart"></span> 15 Likes</p>
+						<p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+						</div>
+			{% endfor %}
+</div>
+</div>
+			 </div>
+
+              <div class="filterDiv Toom-Basel">
+                     <div class="col-lg-3 col-md-6 col-sm-6 single-blog">
+								<div class="thumb">
+								<img class="img-fluid" src="{%static 'img/b1.jpg'%}" alt="">
+							</div>
+							<p class="date">10 Jan 2018</p>
+							<a href="blog-single.html"><h4>Cooking Perfect Fried Rice
+							in minutes</h4></a>
+							<p>
+								inappropriate behavior ipsum dolor sit amet, consectetur.
+							</p>
+							{% for prod in products %}
+							<div class="item">
+								<br>Price : ${{prod.price}}</p>
+								<center><p class="center"><a   type="button" class="btn btn-info" style="padding: 9px;width: 124px;"href="{{prod.get_absolute_url}}">Order</a></center>
+
+							</div>
+							{% endfor %}
+							<div class="meta-bottom d-flex justify-content-between">
+								<p><span class="lnr lnr-heart"></span> 15 Likes</p>
+								<p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+							</div>
+						</div>
+						</div>
+                </div>
+              <div class="filterDiv Rosto">
+                <div class="col-lg-3 col-md-6 col-sm-6 single-blog">
+								<div class="thumb">
+								<img class="img-fluid" src="{%static 'img/b1.jpg'%}" alt="">
+							</div>
+							<p class="date">10 Jan 2018</p>
+							<a href="blog-single.html"><h4>Cooking Perfect Fried Rice
+							in minutes</h4></a>
+							<p>
+								inappropriate behavior ipsum dolor sit amet, consectetur.
+							</p>
+							{% for prod in products %}
+							<div class="item">
+								<br>Price : ${{prod.price}}</p>
+								<center><p class="center"><a   type="button" class="btn btn-info" style="padding: 9px;width: 124px;"href="{{prod.get_absolute_url}}">Order</a></center>
+
+							</div>
+							{% endfor %}
+							<div class="meta-bottom d-flex justify-content-between">
+								<p><span class="lnr lnr-heart"></span> 15 Likes</p>
+								<p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+							</div>
+						</div>
+					</div>
+
+	 			 </div>
+		</section>
+</body>
+			<script type='text/javascript' src="{%static 'js/vendor/jquery-2.2.4.min.js'%}"></script>
+			<script type='text/javascript' src="{%static 'js/popper.min.js'%}"></script>
+			<script type='text/javascript' src="{%static 'js/vendor/bootstrap.min.js'%}"></script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+ 			<script type='text/javascript' src="{%static 'js/jquery-ui.js'%}"></script>
+  			<script type='text/javascript' src="{%static 'js/easing.min.js'%}"></script>
+			<script type='text/javascript'  src="{%static 'js/hoverIntent.js'%}"></script>
+			<script type='text/javascript' src="{%static 'js/superfish.min.js'%}"></script>
+			<script type='text/javascript' src="{%static 'js/jquery.ajaxchimp.min.js'%}"></script>
+			<script type='text/javascript' src="{%static 'js/jquery.magnific-popup.min.js'%}"></script>
+			<script type='text/javascript' src="{%static 'js/jquery.nice-select.min.js'%}"></script>
+			<script type='text/javascript' src="{%static 'js/owl.carousel.min.js'%}"></script>
+            <script type='text/javascript' src="{%static 'js/isotope.pkgd.min.js'%}"></script>
+			<script type='text/javascript' src="{%static 'js/mail-script.js'%}"></script>
+			<script type='text/javascript' src="{%static 'js/main.js'%}"></script>
+            <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+            <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+             <script type='text/javascript'>
+
+				$(document).ready(function(){
+    			$("#myBtnContainer ul li:first-child").trigger('click');
+				});
+
+			</script>
+   			 <script type='text/javascript'>
+
+				$(document).ready(function(){
+    			$("#myBtnContainer ul li:first-child").trigger('click');
+				});
+
+			</script>
+
+</body>
+
+	</div>
+{% endblock content %}
