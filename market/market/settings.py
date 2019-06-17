@@ -18,23 +18,16 @@ from decouple import config
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-from decouple import config, Csv
-import dj_database_url
 
-SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG', default=False, cast=bool)
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
-DATABASES = {
-    'default': dj_database_url.config(
-        default=config('DATABASE_URL')
-    )
-}
 
 # Quick-start development settings - unsuitable for productionpi
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
+ALLOWED_HOSTS=['188.166.64.248']
 # SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'g9=fef8o97e@f3@^10fyqpzmj_s9jk)nwcocz61p%xl=)bo4%k'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
 
 
 
@@ -90,6 +83,26 @@ WSGI_APPLICATION = 'market.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
+if DEBUG:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+}
+else:
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'myproject',
+            'USER': 'myprojectuser',
+            'PASSWORD': 'password',
+            'HOST': 'localhost',
+            'PORT': '',
+        }
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
