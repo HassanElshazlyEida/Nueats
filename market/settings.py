@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for productionpi
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
-ALLOWED_HOSTS=['188.166.64.248']
+ALLOWED_HOSTS=[]
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'g9=fef8o97e@f3@^10fyqpzmj_s9jk)nwcocz61p%xl=)bo4%k'
 

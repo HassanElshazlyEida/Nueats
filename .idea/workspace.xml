@@ -1,34 +1,493 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c56b9dda-9a72-41d8-919f-65eeb6ac4bd7" name="Default Changelist" comment="" />
+    <list default="true" id="f91019fe-36ee-4a7b-b7bd-d867d275ec1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/.idea/market.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/cart/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/cart/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/cart/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/cart/cart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/cart/context_processors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/cart/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/cart/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/cart/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/cart/templates/cart/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/cart/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/cart/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/cart/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/coupons/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/coupons/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/coupons/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/coupons/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/coupons/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/coupons/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/coupons/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/coupons/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/coupons/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/coupons/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/market/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/market/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/market/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/market/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/market/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/media/T-shirt2019.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/media/T-shirt2019_he7N0lu.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/media/T-shirt2019_uYIDyNe.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/media/chicken-meat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/media/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/media/pasta-meat.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/media/pepsi-Drinks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/media/pizza-meat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/media/t-shirt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/media/t-shirt_n1cgKMv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/migrations/0002_order_coupon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/static/css/pdf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/templates/order/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/templates/order/created.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/templates/order/pdf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/orders/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/Templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/Templates/blog-home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/Templates/blog-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/Templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/Templates/elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/Templates/gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/Templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/Templates/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/Templates/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/payment/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/payment/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/payment/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/payment/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/payment/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/payment/signals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/payment/templates/payment/canceled.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/payment/templates/payment/done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/payment/templates/payment/process.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/payment/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/payment/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/payment/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/css/normalize.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/js/jquery-1.11.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/js/jquery.nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shAutoloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushAS3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushAppleScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushBash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushCSharp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushColdFusion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushCpp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushCss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushDelphi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushDiff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushErlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushGroovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushJScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushJava.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushJavaFX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushPerl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushPhp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushPlain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushPowerShell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushPython.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushRuby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushSass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushScala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushSql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushVb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shBrushXml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/scripts/shLegacy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shCore.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shCoreDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shCoreDjango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shCoreEclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shCoreEmacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shCoreFadeToGrey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shCoreMDUltra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shCoreMidnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shCoreRDark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shThemeDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shThemeDjango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shThemeEclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shThemeEmacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shThemeMDUltra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shThemeMidnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/Marco - Doc/syntax-highlighter/styles/shThemeRDark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/bootstrap.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/bootstrap/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/bootstrap/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/bootstrap/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/hover.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/linearicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/main.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/fonts/Linearicons-Free.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/fonts/Linearicons-Free.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/fonts/Linearicons-Free.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/fonts/Linearicons-Free.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/fonts/Linearicons-Free.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/Partner/Gad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/Partner/MdDonald.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/Partner/Rosto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/Partner/Tom and Basal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/Partner/check chiken.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/Partner/medan el sham.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/about-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/about/s1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/about/s2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/about/s3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/b3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/b4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/ads-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/blog-home-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/c1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/c2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/c3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/c6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/cat-widget1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/cat-widget2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/cat-widget3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/feature-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/feature-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/feature-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/feature-img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/feature-img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/next.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/post-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/post-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/pp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/pp2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/pp3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/pp4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/prev.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/s-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/blog/user-info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/chicken-meat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/disabled-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/disabled-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/g1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/g2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/g3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/g4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/g5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/g6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/g7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/g8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/primary-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/primary-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/success-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/success-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/user1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/elements/user2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/foods-category.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/full_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/g1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/g2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/g3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/g4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/g5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/g6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/hero-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/logo .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/pasta-meat.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/pepsi-Drinks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/pizza-meat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/reservation-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/review-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/top-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/js/easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/js/hoverIntent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/js/isotope.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/js/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/js/jquery.ajaxchimp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/js/jquery.nice-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/js/mail-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/js/superfish.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/js/vendor/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/js/vendor/jquery-2.2.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_navbar-align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/bootstrap/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/theme/_about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/theme/_blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/theme/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/theme/_elements.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/theme/_flexbox.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/theme/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/theme/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/theme/_home.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/theme/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/theme/_reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/static/scss/theme/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/templates/shop/product/deatil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/templates/shop/product/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/shopcart/views.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/shopcart/static/css/main.css">
+        <entry file="file://$PROJECT_DIR$/cart/cart.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="257" column="14" selection-start-line="257" selection-start-column="14" selection-end-line="257" selection-end-column="14" />
+            <state relative-caret-position="1479">
+              <caret line="90" column="59" selection-start-line="90" selection-start-column="59" selection-end-line="90" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cart/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cart/templates/cart/detail.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orders/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orders/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orders/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#62#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/market/market/settings.py">
+        <entry file="file://$PROJECT_DIR$/market/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+            <state relative-caret-position="244">
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coupons/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coupons/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#307#316#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cart/admin.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -40,70 +499,42 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>price</find>
-      <find>se</find>
-      <find>#main .items</find>
-      <find>#main</find>
-      <find>.row</find>
-      <find>#myBtnContainer ul</find>
-      <find>#myBtnContainer ul li</find>
-      <find>#sidebar ul li</find>
-      <find>product-detail</find>
-      <find>imp</find>
-      <find>.form-group input</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/market/shopcart/models.py" />
-        <option value="$PROJECT_DIR$/market/shopcart/admin.py" />
-        <option value="$PROJECT_DIR$/market/cart/forms.py" />
-        <option value="$PROJECT_DIR$/market/cart/views.py" />
-        <option value="$PROJECT_DIR$/market/cart/urls.py" />
-        <option value="$PROJECT_DIR$/market/shop/views.py" />
-        <option value="$PROJECT_DIR$/market/cart/cart.py" />
-        <option value="$PROJECT_DIR$/market/shopcart/templates/shop/product/index.html" />
-        <option value="$PROJECT_DIR$/market/pages/Templates/index.html" />
-        <option value="$PROJECT_DIR$/market/market/views.py" />
-        <option value="$PROJECT_DIR$/market/shopcart/templates/shop/product/McDonalds.html" />
-        <option value="$PROJECT_DIR$/market/shopcart/views.py" />
-        <option value="$PROJECT_DIR$/market/shopcart/urls.py" />
-        <option value="$PROJECT_DIR$/market/shopcart/apps.py" />
-        <option value="$PROJECT_DIR$/market/shopcart/templates/index.html" />
-        <option value="$PROJECT_DIR$/market/market/urls.py" />
-        <option value="$PROJECT_DIR$/market/shopcart/templates/shop/product/list.html" />
-        <option value="$PROJECT_DIR$/market/shopcart/templates/shop/product/deatil.html" />
-        <option value="$PROJECT_DIR$/market/shopcart/static/css/style.css" />
-        <option value="$PROJECT_DIR$/../Desktop/nilecut/Hassan_Elshazly_18101886_A1.py" />
-        <option value="$PROJECT_DIR$/market/shopcart/templates/base.html" />
-        <option value="$PROJECT_DIR$/venv/pyvenv.cfg" />
-        <option value="$PROJECT_DIR$/../AppData/Local/Temp/section-9-at-night.py" />
-        <option value="$PROJECT_DIR$/market/shopcart/tests.py" />
-        <option value="$PROJECT_DIR$/../AppData/Local/Temp/Solution-1.py" />
-        <option value="$PROJECT_DIR$/../AppData/Local/Temp/dict2.py" />
-        <option value="$PROJECT_DIR$/../AppData/Local/Temp/files.py" />
-        <option value="$PROJECT_DIR$/../AppData/Local/Temp/for8.py" />
-        <option value="$PROJECT_DIR$/../AppData/Local/Temp/Tutorial-Code-Solution.py" />
-        <option value="$PROJECT_DIR$/../PycharmProjects/PyCharm/PycharmTesr.py" />
-        <option value="$PROJECT_DIR$/market/manage.py" />
-        <option value="$PROJECT_DIR$/market/shopcart/static/css/main.css" />
-        <option value="$PROJECT_DIR$/market/market/settings.py" />
+        <option value="$PROJECT_DIR$/shopcart/admin.py" />
+        <option value="$PROJECT_DIR$/shopcart/views.py" />
+        <option value="$PROJECT_DIR$/orders/admin.py" />
+        <option value="$PROJECT_DIR$/orders/forms.py" />
+        <option value="$PROJECT_DIR$/payment/views.py" />
+        <option value="$PROJECT_DIR$/payment/urls.py" />
+        <option value="$PROJECT_DIR$/payment/signals.py" />
+        <option value="$PROJECT_DIR$/payment/apps.py" />
+        <option value="$PROJECT_DIR$/orders/urls.py" />
+        <option value="$PROJECT_DIR$/coupons/models.py" />
+        <option value="$PROJECT_DIR$/coupons/admin.py" />
+        <option value="$PROJECT_DIR$/orders/views.py" />
+        <option value="$PROJECT_DIR$/coupons/views.py" />
+        <option value="$PROJECT_DIR$/coupons/forms.py" />
+        <option value="$PROJECT_DIR$/coupons/urls.py" />
+        <option value="$PROJECT_DIR$/market/urls.py" />
+        <option value="$PROJECT_DIR$/cart/cart.py" />
+        <option value="$PROJECT_DIR$/cart/views.py" />
+        <option value="$PROJECT_DIR$/orders/models.py" />
+        <option value="$PROJECT_DIR$/cart/templates/cart/detail.html" />
+        <option value="$PROJECT_DIR$/market/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="35" />
-    <option name="y" value="320" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
+    <option name="x" value="282" />
+    <option name="y" value="23" />
+    <option name="width" value="1380" />
+    <option name="height" value="788" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -113,13 +544,36 @@
         <subPane>
           <expand>
             <path>
-              <item name="cart2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cart2" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cart2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cart2" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="b2602c69:ProjectViewProjectNode" />
               <item name="market" type="462c0819:PsiDirectoryNode" />
+              <item name="coupons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+              <item name="orders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+              <item name="orders" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+              <item name="orders" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,149 +601,62 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PycharmTesr">
-    <configuration name="PycharmTesr" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cart" />
+  <component name="RunManager">
+    <configuration name="market" type="Python.DjangoServer" factoryName="Django server">
+      <module name="market" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PycharmProjects/PyCharm" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PycharmProjects/PyCharm/PycharmTesr.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Tutorial-Code-Solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cart" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AppData/Local/Temp" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AppData/Local/Temp/Tutorial-Code-Solution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dict2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cart" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AppData/Local/Temp" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AppData/Local/Temp/dict2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="distionariessets" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cart" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AppData/Local/Temp" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AppData/Local/Temp/distionariessets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="for8" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cart" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AppData/Local/Temp" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AppData/Local/Temp/for8.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.PycharmTesr" />
-        <item itemvalue="Python.for8" />
-        <item itemvalue="Python.dict2" />
-        <item itemvalue="Python.Tutorial-Code-Solution" />
-        <item itemvalue="Python.distionariessets" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c56b9dda-9a72-41d8-919f-65eeb6ac4bd7" name="Default Changelist" comment="" />
-      <created>1557868103780</created>
+      <changelist id="f91019fe-36ee-4a7b-b7bd-d867d275ec1c" name="Default Changelist" comment="" />
+      <created>1557877018453</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557868103780</updated>
-      <workItem from="1557868124808" duration="6876000" />
+      <updated>1557877018453</updated>
+      <workItem from="1557877020934" duration="11065000" />
+      <workItem from="1557898344399" duration="2313000" />
+      <workItem from="1557920027336" duration="1913000" />
+      <workItem from="1558014993424" duration="1378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6876000" />
+    <option name="totallyTimeSpent" value="16669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1869455" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26045626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38761777" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -297,7 +664,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23687753" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32839838" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -310,312 +677,253 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/market/orders/templates/order/pdf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/cart/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/templates/shop/product/index.html" />
-    <entry file="file://$PROJECT_DIR$/market/pages/urls.py">
+    <entry file="file://$PROJECT_DIR$/cart/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopcart/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/pages/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/pages/Templates/mail.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/pages/Templates/menu.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/pages/Templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="95" lean-forward="true" selection-end-line="561" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#22719#22725#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/cart/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/market/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/orders/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-388">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/templates/shop/product/McDonalds.html" />
-    <entry file="file://$PROJECT_DIR$/market/orders/templates/order/created.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/market/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/market/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/orders/templates/order/create.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/cart/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/cart/templates/cart/detail.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/static/js/vendor/jquery-2.2.4.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/static/js/vendor/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/views.py">
+    <entry file="file://$PROJECT_DIR$/shopcart/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="54" column="64" selection-start-line="54" selection-start-column="64" selection-end-line="54" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/market/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Temp/code w errors and solutions.py" />
-    <entry file="file://$PROJECT_DIR$/../Desktop/nilecut/Hassan_Elshazly_18101886_A1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Movies/code w errors and solutions.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Temp/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-603" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="90" column="18" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="-839">
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/templates/shop/product/deatil.html">
+    <entry file="file://$PROJECT_DIR$/shopcart/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/templates/shop/product/list.html">
+    <entry file="file://$PROJECT_DIR$/shopcart/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3893">
-          <caret line="229" selection-start-line="229" selection-end-line="229" />
+        <state relative-caret-position="682">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/tests.py">
+    <entry file="file://$PROJECT_DIR$/cart/forms.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Desktop/Hassan_Elshazly_18101886_A2_3.py">
+    <entry file="file://$PROJECT_DIR$/cart/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Temp/files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="70" selection-start-line="70" selection-end-line="74" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Temp/Solution-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Temp/Tutorial-Code-Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Temp/dict2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PycharmProjects/PyCharm/PycharmTesr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Temp/distionariessets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Temp/for8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Temp/section-9-at-night.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/shopcart/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="257" column="14" selection-start-line="257" selection-start-column="14" selection-end-line="257" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/venv/Scripts/django-admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/venv/pyvenv.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/market/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
           <folding>
-            <element signature="e#307#316#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopcart/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/context_processors.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopcart/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/templates/order/create.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/templates/payment/process.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/signals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupons/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupons/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupons/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="90" column="59" selection-start-line="90" selection-start-column="59" selection-end-line="90" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/templates/cart/detail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupons/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupons/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
         </state>
       </provider>
     </entry>
