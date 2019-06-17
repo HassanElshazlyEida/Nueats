@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c56b9dda-9a72-41d8-919f-65eeb6ac4bd7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/market/market/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/market/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="c56b9dda-9a72-41d8-919f-65eeb6ac4bd7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,15 +10,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/shopcart/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -33,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/market/market/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="103" selection-start-line="94" selection-start-column="4" selection-end-line="103" />
+            <state relative-caret-position="275">
+              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
               <folding>
                 <element signature="e#307#316#0" expanded="true" />
               </folding>
@@ -622,8 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/market/market/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="103" selection-start-line="94" selection-start-column="4" selection-end-line="103" />
+        <state relative-caret-position="275">
+          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
           <folding>
             <element signature="e#307#316#0" expanded="true" />
           </folding>
