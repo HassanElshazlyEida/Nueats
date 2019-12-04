@@ -10,7 +10,7 @@ cssselect2==0.2.1
 defusedxml==0.6.0
 diff-match-patch==20181111
 dj-database-url==0.5.0
-Django==2.2
+Django==2.2.8
 django-allauth==0.39.1
 django-bootstrap-base-template==0.0.2
 django-countries==5.3.3
